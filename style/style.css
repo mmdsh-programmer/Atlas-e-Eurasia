@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Iransans";
+    src: url('../font/IRANSansWeb.ttf') format('ttf');
+    src: url('../font/IRANSansWeb.eot') format('eot');
+    src: url('../font/IRANSansWeb.woff') format('woff');
+    src: url('../font/IRANSansWeb.woff2') format('woff2');
+}
+
+body {
+    font-family: "Iransans";
+}
+
+nav .navbar-collapse{
+    flex-grow: 0.7;
+}
+
+nav .header-icons{
+    width: 1.5em;
+    cursor: pointer;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: #63392a;
+    font-size: 20px;
+}
+
+.navbar-nav .active>.nav-link{
+    color: #442013 !important;
+}
