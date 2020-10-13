@@ -179,3 +179,65 @@ h3 {
   object-fit: cover;
 }
 /*Special Goods*/
+/*Footer*/
+footer{
+  background-color: #424242;
+  z-index: 3;
+}
+
+footer .h5,.h6{
+  color: white;
+}
+
+footer h2{
+  width: auto;
+}
+
+footer .form-row input[type="email"]{
+  border-radius: 30px;
+  width: 90%;
+}
+
+::-webkit-input-placeholder {
+  text-align: right;
+}
+
+:-moz-placeholder {
+  text-align: right;
+}
+
+footer .btn-outline-light {
+  color: black;
+  border-radius: 30px;
+  background-color: white;
+  width: 110px;
+}
+
+footer .btn-outline-light:hover,
+.btn-outline-light:focus,
+.btn-outline-light:active,
+.btn-outline-light.active,
+.open > .dropdown-toggle.btn-outline-light {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+footer .row img{
+  width: 140px;
+}
+
+.footer-gutter{
+  height: 50px;
+  background-color: white;
+}
+
+.footer-gutter p{
+  color: black;
+}
+
+.footer-gutter p span{
+  color: rgb(12, 211, 12);
+}
+/*Footer*/
+
