@@ -6,6 +6,23 @@
 	src: url("../font/IRANSansWeb.woff2") format("woff2");
 }
 
+/*modified classes*/
+.btn-rounded-sm {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	display: flex;
+}
+
+.center-icon {
+	transform: translateX(3px);
+}
+
+.w-150 {
+	width: 150px;
+}
+/*modified classes*/
+
 body {
 	font-family: "Iransans";
 }
@@ -41,10 +58,10 @@ nav .nav-utilities li svg {
 }
 
 @media only screen and (max-width: 991px) {
-  .navbar-collapse{
-    flex-direction: column;
-    border: 1px solid #442013;
-  }
+	.navbar-collapse {
+		flex-direction: column;
+		border: 1px solid #442013;
+	}
 }
 /*Navbar*/
 /*Slider*/
