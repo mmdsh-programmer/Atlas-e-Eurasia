@@ -21,6 +21,18 @@
 .w-150 {
 	width: 150px;
 }
+
+.active{
+	border-bottom: 3px solid green;
+}
+
+.active::after{
+	line-height: 60px;
+}
+
+.z-index-2{
+	z-index: 2;
+}
 /*modified classes*/
 
 body {
