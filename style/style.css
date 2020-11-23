@@ -22,16 +22,28 @@
 	width: 150px;
 }
 
-.active{
+.active {
 	border-bottom: 3px solid green;
 }
 
-.active::after{
+.active::after {
 	line-height: 60px;
 }
 
-.z-index-2{
+.z-index-2 {
 	z-index: 2;
+}
+
+.margin-t75 {
+	margin-top: 75px;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.bg-f7 {
+	background-color: #f7f7f7;
 }
 /*modified classes*/
 
@@ -41,7 +53,7 @@ body {
 
 .navbar {
 	position: fixed;
-	z-index: 3;
+	z-index: 100;
 	width: 100%;
 	background-color: white;
 	top: 0;
@@ -230,7 +242,7 @@ h3 {
 footer {
 	background-color: #424242;
 	position: relative;
-	z-index: 2;
+	z-index: 99;
 }
 
 footer .h5,
@@ -290,3 +302,35 @@ footer .row img {
 	color: rgb(12, 211, 12);
 }
 /*Footer*/
+/*---------------------------------------- product page -----------------------------------*/
+/*modified classes*/
+.products-container .row {
+	margin-left: unset;
+	margin-right: unset;
+}
+/*modified classes*/
+/*product sidebar*/
+.sidebar {
+	position: fixed;
+	top: 27px;
+	bottom: 0;
+	z-index: 99;
+	padding: 48px 0 0;
+	background-color: white;
+}
+/*product sidebar*/
+/*product page*/
+.products-container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.close-side {
+	left: 10px;
+}
+
+.fullheight-row {
+	height: 100vh;
+	background-color: #f7f7f7;
+}
+/*product page*/

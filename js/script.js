@@ -17,3 +17,13 @@ AOS.init({
     anchorPlacement: 'top-bottom',
 
 });
+
+
+
+function openCategory() {
+    document.getElementById("side").classList.remove("d-none");
+}
+
+function closeCategory() {
+    document.getElementById("side").classList.add("d-none");
+}
