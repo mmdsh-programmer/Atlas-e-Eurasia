@@ -76,6 +76,7 @@ body {
 	z-index: 100;
 	width: 100%;
 	background-color: white;
+	border-bottom: 2px solid green;
 	top: 0;
 }
 
@@ -99,13 +100,6 @@ nav .nav-utilities li svg {
 
 .navbar-nav .active > .nav-link {
 	color: #442013 !important;
-}
-
-@media only screen and (max-width: 991px) {
-	.navbar-collapse {
-		flex-direction: column;
-		border: 1px solid #442013;
-	}
 }
 /*Navbar*/
 /*Slider*/
@@ -131,6 +125,12 @@ nav .nav-utilities li svg {
 	right: 10%;
 	bottom: 200px;
 	z-index: 1;
+	background-color: rgba(52, 73, 94,0.5);
+	border-radius: 30px;
+	left: 10%;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: fit-content;
 }
 
 .carousel-item .carousel-caption h5 {
@@ -149,8 +149,9 @@ nav .nav-utilities li svg {
 .carousel-item .carousel-caption .btn-outline-secondary {
 	width: 150px;
 	border-radius: 30px;
-	color: #63392a;
-	border-color: #63392a;
+	color: white;
+	border-color: white;
+	border : 2px solid white;
 }
 
 .carousel-item .carousel-caption .btn-outline-secondary:hover,
@@ -158,8 +159,8 @@ nav .nav-utilities li svg {
 .btn-outline-secondary:active,
 .btn-outline-secondary.active,
 .open > .dropdown-toggle.btn-outline-secondary {
-	color: #fff;
-	background-color: #63392a;
+	color: rgba(52, 73, 94,1);
+	background-color: white;
 }
 
 .carousel-indicators {
@@ -173,6 +174,8 @@ nav .nav-utilities li svg {
 	height: 8px;
 	z-index: 1;
 }
+
+
 /*Slider*/
 /*rows*/
 .middle-data .btn-outline-secondary {
@@ -359,3 +362,40 @@ footer .row img {
 	background-color: #f7f7f7;
 }
 /*product page*/
+@media only screen and (max-width: 991px) {
+	.navbar-collapse {
+		flex-direction: column;
+		border: 1px solid #442013;
+	}
+}
+
+@media only screen and (max-width : 768px){
+	.carousel-item .carousel-caption h5{
+		font-size: 1.75rem;
+		width: 310px;
+		text-align: right;
+	}
+	.carousel-item .carousel-caption p{
+		font-size: 1.25rem;
+		width: 310px;
+	}
+}
+
+@media only screen and (max-width : 425px){
+	.carousel-item .carousel-caption h5{
+		font-size: 1.25rem;
+		width: 250px;
+		text-align: right;
+	}
+	.carousel-item .carousel-caption {
+		right: 1%;
+		
+	}
+	.carousel-item .carousel-caption .btn-outline-secondary {
+		font-size: 0.75rem;
+	}
+	.carousel-item .carousel-caption p{
+		font-size: 0.75rem;
+		width: 250px;
+	}
+}
